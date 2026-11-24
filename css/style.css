@@ -1,0 +1,627 @@
+/* ALL COMMON CSS START */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* ALL COMMON CSS END */
+
+
+/* HEADER SECTION CSS START */
+
+.navbtn a {
+    background-color: #5E3BEE;
+    color: #fff;
+    border-radius: 50px;
+    padding: 11px 22px;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.navbar-nav .nav-item a {
+    margin-left: 40px;
+
+    color: #000000;
+    line-height: 24px;
+    font-size: 14px;
+
+}
+.navbar-nav .nav-item a:hover{
+color: #5E3BEE;
+}
+
+#nav {
+    background-color: #F9F9FC;
+    padding: 30px 0px;
+}
+
+/* HEADER SECTION CSS END */
+/* banner SECTION CSS START */
+#bannerpart {
+    background-color: #F9F9FC;
+
+}
+
+.bannercontent {
+    padding-top: 119px;
+    padding-bottom: 142px;
+}
+
+.bannercontent h5 {
+    color: #5E3BEE;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.bannercontent h1 {
+    color: #333333;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    margin: 32px 0px;
+}
+
+
+.bannerbtn a {
+    color: #F9F9FC;
+    background-color: #5E3BEE;
+    padding: 23px 40px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.30s;
+
+}
+
+.bannerbtn a:hover {
+    color: #000000;
+    background: transparent;
+
+
+
+}
+
+.bannerbtn .btncontact {
+    margin-right: 23px;
+}
+
+.bannerimg {
+    padding-top: 16px;
+    padding-bottom: 42px;
+}
+
+/* banner SECTION CSS END */
+
+/* counter SECTION CSS Start */
+#counter {
+    padding-top: 91px;
+    padding-bottom: 79px;
+}
+
+.countertext h4 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    width: 272px;
+    text-align: center;
+}
+
+.countertext p {
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.699);
+    margin-top: 8px;
+    width: 272px;
+    text-align: center;
+}
+
+/* counter SECTION CSS END */
+/* service SECTION CSS START */
+.servicetext {
+    text-align: center;
+}
+
+.servicetext h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #5E3BEE;
+    height: 26px;
+
+}
+
+.servicetext h4 {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 56px;
+    color: #000000;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    letter-spacing: 0.5px;
+
+}
+
+.servicetext p {
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+
+    color: rgba(0, 0, 0, 0.699);
+    width: 600px;
+    margin: 0px auto;
+
+
+}
+
+/* service SECTION CSS END */
+/* card section css start */
+.cardimg {
+    text-align: center;
+    margin-top: 51px;
+}
+
+.card-body h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    text-align: center;
+    margin-top: 37px;
+    letter-spacing: 0.5px;
+}
+
+.card-body p {
+
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.699);
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 9px;
+    margin-bottom: 52px;
+
+    width: 307px;
+
+
+}
+
+.servicecard {
+    margin-top: 64px;
+    margin-bottom: 140px;
+    border: 1px solid #F9F9FC;
+    border-radius: 24px;
+    background-color: #F9F9FC;
+    transition: 0.15s;
+
+
+
+}
+
+.servicecard:hover {
+    box-shadow: 27px 37px 80px 0px rgba(0, 0, 0, 0.192);
+    transform: translateY(-10px);
+    background-color: #ffffff;
+}
+
+/* card section css end */
+/* experience css start */
+#experience {
+    background-image: url(../images/Group\ 50\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.extext h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #5E3BEE;
+    letter-spacing: 1.5px;
+
+}
+
+.extext h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    width: 482px;
+    color: #000000;
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+
+.extext p {
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    width: 584px;
+    color: rgba(0, 0, 0, 0.699);
+    margin-bottom: 30px;
+}
+
+.exbtn a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    background-color: #5E3BEE;
+    padding: 23px 38px;
+    border-radius: 50px;
+
+}
+
+.extext {
+    padding-top: 109px;
+    padding-bottom: 114px;
+}
+
+/* experience css end */
+/* company css start */
+#company {
+    margin-top: 110px;
+    margin-bottom: 112px;
+}
+
+.col-lg-3 {
+    text-align: center;
+}
+
+/* company css end */
+/* portfolio css start */
+.porttop h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #5E3BEE;
+    letter-spacing: 1.5px;
+}
+
+.porttop h4 {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 56px;
+    color: #000000;
+
+
+    letter-spacing: 0.5px;
+}
+.pcard{
+position: relative;
+
+}
+.pcard img{
+ width: 100%;
+height: 532px;
+border-radius: 20px;
+
+}
+
+.pcardtext{
+    
+    text-align: center;
+  
+
+
+  
+   
+  
+}
+.pcardoverlay{
+  position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #06011aa1;  
+    display: none;
+   
+}
+
+.pcard .pcardoverlay{
+  display: block;
+}
+
+.pcardtext h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color:white;
+     margin-top: 33px;
+  
+   
+}
+.pcardbtm{
+    margin-top: 50px;
+    /* border-radius: 30px solid black; */
+}
+
+.pcardtext h5 {
+    color:rgba(255, 255, 255, 0.404);
+    font-weight: 500;
+    line-height: 24px;
+  
+    margin-top: 8px;
+    margin-bottom: 20px;
+
+
+}
+
+
+.portpara p{
+    line-height: 32px;
+    width: 557px;
+}
+
+
+.portbottom p {
+    width: 557px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.719);
+    text-align:center;
+}
+
+.portcardtwo {
+    margin-top: 50px;
+}
+
+/* portfolio css end */
+/* comment section style start */
+#comment {
+    background-color: #F9F9FC;
+    margin-top: 132px;
+
+}
+
+.cmmenttext {
+    padding-top: 147px;
+    padding-bottom: 157px;
+
+    text-align: center;
+}
+
+.cmmenttext h5 {
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    color: #5E3BEE;
+
+    margin-bottom: 12px;
+}
+
+.cmmenttext h4 {
+    margin-bottom: 13px;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.5px;
+}
+
+.cmmenttext p {
+
+
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    width: 600px;
+    margin: 0px auto;
+}
+
+/* comment section style end */
+/* commment card style start */
+.commentcard {
+    width: 100%;
+    background-color: #F9F9FC;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+
+    margin-top: -100px;
+    transition: 0.5s;
+}
+
+.commentcard p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    width: 484px;
+    color: #000000;
+    margin-left: 42px;
+}
+
+.commentcard img {
+    margin-top: 44px;
+    margin-bottom: 32px;
+    margin-left: 42px;
+}
+
+.cmentbox {
+    height: 64px;
+    width: 64px;
+    background-color: #5E3BEE;
+    border-radius: 50%;
+}
+
+.cmtfoot {
+    display: flex;
+    margin-top: 27px;
+    margin-left: 42px;
+    align-items: center;
+
+}
+
+.cmttext h5 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.cmttext h6 {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.cmttext {
+    margin-left: 17px;
+    margin-right: 250px;
+}
+
+.commentcard:hover {
+    background-color: #ffffff;
+    box-shadow: 27px 37px 80px 0px rgba(0, 0, 0, 0.192);
+    transform: translateY(-10px);
+}
+
+/* commment card style end */
+/* contact style start */
+
+.contacttext h3 {
+    font-size: 50px;
+    font-weight: 614px;
+    line-height: 72px;
+    letter-spacing: 0.5px;
+    color: #333333;
+    width: 606px;
+
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 42px;
+
+
+}
+
+.conwraper {
+    text-align: center;
+    background-image: url(../images/Group\ 50.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 136px;
+    margin-bottom: 132px;
+    border-right: 24px;
+}
+
+.contacttext a {
+
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background-color: #5E3BEE;
+    padding: 26px 38px;
+    border-radius: 50px;
+}
+
+.contacttext {
+    padding-top: 112px;
+    padding-bottom: 152px;
+}
+
+
+/* contact style end */
+/* footter section style start */
+#footter {
+    background-color: #333333;
+}
+
+.footleft p {
+    line-height: 32px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    width: 369px;
+    margin-top: 23px;
+}
+
+.footleft {
+    margin-top: 112px;
+    margin-bottom: 60px;
+
+}
+
+.footright p {
+    color: #ffffff;
+
+}
+
+.footright h6 {
+    color: #ffffff;
+    margin-top: 23px;
+    margin-bottom: 38px;
+}
+
+.footlogo img {
+    margin-right: 37px;
+}
+
+.footright {
+
+    margin-top: 112px;
+    margin-bottom: 60px;
+}
+
+.footright i {
+    margin-right: 20px;
+}
+
+hr {
+    stroke: #404040;
+
+}
+
+.fotmenu ul {
+    display: flex;
+
+    align-items: center;
+    margin-top: 56px;
+    margin-bottom: 44px;
+    margin-right: 37px;
+}
+
+.fotmenu ul a {
+    color: #ffffff;
+    margin-right: 37px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+}
+
+.fotcopy {
+    color: rgba(255, 255, 255, 0.63);
+    width: 152px;
+    margin-top: 52px;
+    margin-bottom: 44px;
+}
+
+/* footter section style end */

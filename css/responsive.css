@@ -1,0 +1,573 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* header section start */
+.navbtn {
+text-align: center;
+
+
+}
+
+.navbar-nav .nav-item a {
+    margin-left: 0px;
+    text-align: center;
+
+
+
+}
+.navbar-nav .nav-item a:hover{
+color: #5E3BEE;
+
+}
+
+#nav {
+    background-color: #F9F9FC;
+    padding: 15px 0px;
+   
+}
+
+    /* header section end */
+
+    /* banner section start */
+    .bannercontent h5 {
+        text-align: center;
+        margin-bottom: 21px;
+    }
+
+    .bannercontent h1 {
+        color: #333333;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 64px;
+        text-align: center;
+        width: 365px;
+        margin: 0 auto;
+
+    }
+
+    .bannercontent {
+        padding-top: 32px;
+        padding-bottom: 88px;
+    }
+
+    .bannerbtn {
+        text-align: center;
+
+    }
+
+    .bannerbtn a:nth-child(2) {
+        margin-top: 20px;
+
+        display:inline-block;
+
+    }
+
+
+
+    .bannerimg {
+        margin-top:0px;
+        padding-bottom: 27px;
+
+    }
+
+    .bannerbtn .btncontact {
+        margin-right: 0;
+    }
+
+
+
+
+
+    /* couonter section start */
+    #counter {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: 8%;
+
+        /* text-align: center; */
+
+    }
+
+    .countertext h4 {
+
+        width: 114px;
+        text-align: center;
+   
+
+    }
+
+    .countertext p {
+        font-weight: 500;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.699);
+        margin-top: 8px;
+        width: 142px;
+        text-align: start;
+     
+    }
+
+    .conttop {
+        margin-top: 50px;
+    }
+
+    /* couonter section end */
+    /* service section start */
+
+
+    .servicetext h4 {
+        width: 365px;
+        font-size: 34px;
+        line-height: 40px;
+        font-weight: 600;
+     
+        margin: 0 auto;
+
+    }
+
+    .servicetext p {
+
+        width: 365px;
+        margin: 0px auto;
+        padding-bottom: 30px;
+
+
+    }
+
+    .cardimg {
+        text-align: center;
+        margin-top: 27px;
+    }
+
+    .servicecard {
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+
+    }
+.cardimg {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-body h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.card-body p {
+
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.699);
+    text-align: center;
+  
+    margin-top: 9px;
+    margin-bottom: 52px;
+    margin: 0 auto;
+
+    width: 307px;
+    padding-bottom: 30px;
+
+
+}
+.servicecard {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #F9F9FC;
+    border-radius: 24px;
+    background-color: #F9F9FC;
+    transition: 0.15s;
+
+
+
+}
+
+
+    /* service section end */
+    /* experience section start */
+    #experience {
+        padding: 40px 0px;
+        margin-top: 40px;
+        
+
+
+    }
+
+    .extext {
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+
+    }
+
+
+    .extext h5 {
+        text-align: center;
+
+
+    }
+
+    .extext h2 {
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 64px;
+        width: 368px;
+ text-align: center;
+      margin-left: 40px;
+
+      
+    }
+
+    .extext p {
+
+        width: 360px;
+
+        margin-bottom: 37px;
+    margin: 0 auto;
+    
+    }
+
+
+    .exbtn {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+
+
+    /* experience section end */
+
+    /* company section start */
+    #company {
+        margin-top:40px;
+        margin-bottom: 45px;
+
+    }
+
+    /* company section end */
+    /* portfolio section start */
+    .porttop h5 {
+        text-align: center;
+    }
+
+    .porttop h4 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 6px;
+        margin-bottom: 15px;
+    }
+
+    
+.pcard{
+margin-top: 15px;
+}
+
+.pcardbtm{
+    margin-top: 15px;
+}
+
+
+
+.portpara p{
+    line-height: 26px;
+    width: 488px;
+    font-size: 14px;
+}
+
+
+    /* portfolio section end */
+   /* comment section style start */
+#comment {
+    background-color: #F9F9FC;
+    margin-top: 40px;
+
+}
+
+.cmmenttext {
+    padding-top: 25px;
+    padding-bottom: 30px;
+
+    text-align: center;
+}
+
+.cmmenttext h5 {
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    color: #5E3BEE;
+
+    margin-bottom: 12px;
+}
+
+.cmmenttext h4 {
+    margin-bottom: 13px;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0px;
+  
+}
+
+.cmmenttext p {
+
+
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    width: 480px;
+
+}
+
+.commentcard {
+    width: 100%;
+    background-color: #F9F9FC;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+
+    margin-top: 15px;
+    transition: 0.5s;
+    margin-bottom: 0px;
+}
+
+.commentcard p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    width: 488px;
+    color: #000000;
+    margin-left: 0px;
+}
+
+.commentcard img {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+}
+
+.cmentbox {
+    height: 64px;
+    width: 64px;
+    background-color: #5E3BEE;
+    border-radius: 50%;
+}
+
+.cmtfoot {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cmttext h5 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: #000000;
+   margin-right: 20px;
+}
+
+.cmttext h6 {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.cmttext {
+    margin-left: -200px;
+    margin-right: 0px;
+}
+
+/* contact style start */
+
+.contacttext h3 {
+    font-size: 33px;
+    font-weight: 600px;
+    line-height: 56px;
+    letter-spacing: 0.5px;
+    color: #333333;
+    width: 488px;
+
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 25px;
+
+
+}
+
+.conwraper {
+    text-align: center;
+    background-image: url(../images/Group\ 50.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-right: 24px;
+}
+
+.contacttext a {
+
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background-color: #5E3BEE;
+    padding: 26px 38px;
+    border-radius: 50px;
+}
+
+.contacttext {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* contact style end */
+/* footter section style start */
+#footter {
+    background-color: #333333;
+}
+
+.footleft p {
+    line-height: 32px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    width: 369px;
+    margin-top: 15px;
+}
+
+.footleft {
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+
+
+
+.footright h6 {
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footlogo img {
+    margin-right: 37px;
+}
+
+.footright {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footright i {
+    margin-right:30px;
+}
+
+hr {
+    stroke: #404040;
+
+}
+
+.fotmenu ul {
+    display: flex;
+
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-right: 37px;
+}
+
+.fotmenu ul a {
+    color: #ffffff;
+    margin-right: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    margin-left: 20px;
+
+}
+
+.fotcopy {
+    color: rgba(255, 255, 255, 0.63);
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 44px;
+    text-align: center;
+}
+
+/* footter section style end */
+
+
+/* comment section style end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Small devices (landscape phones, less than 768px)/ */
+@media (max-width: 767.98px) {
+    
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+/* 
+// Extra large devices (large desktops) */
+/* // No media query since the extra-large breakpoint has no upper bound on its width */
